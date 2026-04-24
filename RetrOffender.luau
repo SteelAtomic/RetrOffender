@@ -11,7 +11,7 @@ local function sendNotif(txt)
 end
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SteelAtomic/RetrOffender/refs/heads/main/uilib.lua"))()
-local Forums = Library.new("RetrOffender")
+local Forums = Library.new("RetrOffender by Sealhaxx")
 local mainTab = Forums:NewSection("Main")
 
 local guisDropdown = mainTab:NewDropdown("GUIs", FoundItems, function(item)
