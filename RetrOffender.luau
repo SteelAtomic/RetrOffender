@@ -10,7 +10,7 @@ local function sendNotif(txt)
     Duration = 2;})
 end
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/forumsLib/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SteelAtomic/RetrOffender/refs/heads/main/uilib.lua"))()
 local Forums = Library.new("RetrOffender")
 local mainTab = Forums:NewSection("Main")
 
